@@ -15,8 +15,8 @@ function convertToObject(sourceString) {
     return trimmedProp !== '';
   });
 
-  nonEmptyProperties.forEach(function (propeprty) {
-    const parts = propeprty.split(':');
+  nonEmptyProperties.forEach(function (property) {
+    const parts = property.split(':');
 
     if (parts.length >= 2) {
       const key = parts[0].trim();
